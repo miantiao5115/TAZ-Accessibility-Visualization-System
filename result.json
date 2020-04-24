@@ -1,0 +1,3782 @@
+{
+	"featureCollection" : {
+		"layers" : [{
+			"layerDefinition" : {
+				"currentVersion" : 10.7,
+				"id" : 0,
+				"name" : "Export_Output2",
+				"type" : "Feature Layer",
+				"displayField" : "",
+				"description" : "",
+				"copyrightText" : "",
+				"defaultVisibility" : true,
+				"relationships" : [],
+				"isDataVersioned" : false,
+				"supportsAppend" : true,
+				"supportsCalculate" : true,
+				"supportsASyncCalculate" : true,
+				"supportsTruncate" : false,
+				"supportsAttachmentsByUploadId" : true,
+				"supportsAttachmentsResizing" : true,
+				"supportsRollbackOnFailureParameter" : true,
+				"supportsStatistics" : true,
+				"supportsExceedsLimitStatistics" : true,
+				"supportsAdvancedQueries" : true,
+				"supportsValidateSql" : true,
+				"supportsCoordinatesQuantization" : true,
+				"supportsFieldDescriptionProperty" : true,
+				"supportsQuantizationEditMode" : true,
+				"supportsApplyEditsWithGlobalIds" : false,
+				"supportsMultiScaleGeometry" : true,
+				"supportsReturningQueryGeometry" : true,
+				"advancedQueryCapabilities" : {
+					"supportsPagination" : true,
+					"supportsPaginationOnAggregatedQueries" : true,
+					"supportsQueryRelatedPagination" : true,
+					"supportsQueryWithDistance" : true,
+					"supportsReturningQueryExtent" : true,
+					"supportsStatistics" : true,
+					"supportsOrderBy" : true,
+					"supportsDistinct" : true,
+					"supportsQueryWithResultType" : true,
+					"supportsSqlExpression" : true,
+					"supportsAdvancedQueryRelated" : true,
+					"supportsCountDistinct" : true,
+					"supportsPercentileStatistics" : true,
+					"supportsReturningGeometryCentroid" : true,
+					"supportsReturningGeometryProperties" : true,
+					"supportsQueryWithDatumTransformation" : true,
+					"supportsHavingClause" : true,
+					"supportsOutFieldSQLExpression" : true,
+					"supportsMaxRecordCountFactor" : true,
+					"supportsTopFeaturesQuery" : true,
+					"supportsDisjointSpatialRel" : true,
+					"supportsQueryWithCacheHint" : true
+				},
+				"useStandardizedQueries" : false,
+				"geometryType" : "esriGeometryPolygon",
+				"minScale" : 0,
+				"maxScale" : 0,
+				"extent" : {
+					"xmin" : 17027242,
+					"ymin" : -3185302,
+					"xmax" : 17041872,
+					"ymax" : -3174040,
+					"spatialReference" : {
+						"wkid" : 102100,
+						"latestWkid" : 3857
+					}
+				},
+				"drawingInfo" : {
+					"renderer" : {
+						"type" : "simple",
+						"symbol" : {
+							"type" : "esriSFS",
+							"style" : "esriSFSSolid",
+							"color" : [76, 129, 205, 191],
+							"outline" : {
+								"type" : "esriSLS",
+								"style" : "esriSLSSolid",
+								"color" : [0, 0, 0, 255],
+								"width" : 0.75
+							}
+						}
+					},
+					"transparency" : 0,
+					"labelingInfo" : null
+				},
+				"allowGeometryUpdates" : true,
+				"hasAttachments" : false,
+				"htmlPopupType" : "",
+				"hasMetadata" : true,
+				"hasM" : false,
+				"hasZ" : false,
+				"objectIdField" : "FID",
+				"globalIdField" : "",
+				"typeIdField" : "",
+				"fields" : [{
+							"name" : "FID",
+							"type" : "esriFieldTypeOID",
+							"alias" : "FID",
+							"sqlType" : "sqlTypeOther",
+							"nullable" : false,
+							"editable" : false,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "DZN_CODE16",
+							"type" : "esriFieldTypeString",
+							"alias" : "DZN_CODE16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 9,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "SA2_MAIN16",
+							"type" : "esriFieldTypeString",
+							"alias" : "SA2_MAIN16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 11,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "SA2_5DIG16",
+							"type" : "esriFieldTypeString",
+							"alias" : "SA2_5DIG16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 5,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "SA2_NAME16",
+							"type" : "esriFieldTypeString",
+							"alias" : "SA2_NAME16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 50,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "STE_CODE16",
+							"type" : "esriFieldTypeString",
+							"alias" : "STE_CODE16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 1,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "STE_NAME16",
+							"type" : "esriFieldTypeString",
+							"alias" : "STE_NAME16",
+							"sqlType" : "sqlTypeOther",
+							"length" : 50,
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "AREASQKM16",
+							"type" : "esriFieldTypeDouble",
+							"alias" : "AREASQKM16",
+							"sqlType" : "sqlTypeOther",
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "NEAR_FID",
+							"type" : "esriFieldTypeInteger",
+							"alias" : "NEAR_FID",
+							"sqlType" : "sqlTypeOther",
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "NEAR_DIST",
+							"type" : "esriFieldTypeDouble",
+							"alias" : "NEAR_DIST",
+							"sqlType" : "sqlTypeOther",
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}, {
+							"name" : "ACC",
+							"type" : "esriFieldTypeDouble",
+							"alias" : "ACC",
+							"sqlType" : "sqlTypeOther",
+							"nullable" : true,
+							"editable" : true,
+							"domain" : null,
+							"defaultValue" : null
+						}],
+				"indexes" : [],
+				"types" : [],
+				"templates" : [{
+							"name" : "New Feature",
+							"description" : "",
+							"drawingTool" : "esriFeatureEditToolPolygon",
+							"prototype" : {
+								"attributes" : {
+									"DZN_CODE16" : null,
+									"SA2_MAIN16" : null,
+									"SA2_5DIG16" : null,
+									"SA2_NAME16" : null,
+									"STE_CODE16" : null,
+									"STE_NAME16" : null,
+									"AREASQKM16" : null,
+									"NEAR_FID" : null,
+									"NEAR_DIST" : null,
+									"ACC" : null
+								}
+							}
+						}],
+				"supportedQueryFormats" : "JSON, geoJSON",
+				"hasStaticData" : false,
+				"maxRecordCount" : -1,
+				"standardMaxRecordCount" : 4000,
+				"standardMaxRecordCountNoGeometry" : 32000,
+				"tileMaxRecordCount" : 4000,
+				"maxRecordCountFactor" : 1,
+				"capabilities" : "Create,Delete,Query,Update,Editing"
+			},
+			"featureSet" : {
+				"features" : [{
+					"attributes" : {
+						"FID" : 0,
+						"DZN_CODE16" : "311051648",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.2956,
+						"NEAR_FID" : 173,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033167, -3181266], [17033221, -3180973],
+								[17033273, -3180866], [17033536, -3181050],
+								[17033534, -3181168], [17033641, -3181704],
+								[17033038, -3181926], [17033167, -3181266]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 1,
+						"DZN_CODE16" : "311051649",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1204,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033065, -3182016], [17033038, -3181926],
+								[17033641, -3181704], [17033666, -3181832],
+								[17033579, -3181920], [17033590, -3182033],
+								[17033509, -3182052], [17033403, -3182050],
+								[17033135, -3182181], [17033065, -3182016]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 2,
+						"DZN_CODE16" : "311051650",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3567,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033590, -3181077], [17033717, -3181131],
+								[17033886, -3181126], [17033984, -3181215],
+								[17034252, -3181318], [17034166, -3181580],
+								[17034162, -3181655], [17034444, -3181988],
+								[17034386, -3182033], [17034207, -3181950],
+								[17033713, -3181809], [17033661, -3181811],
+								[17033534, -3181168], [17033536, -3181050],
+								[17033590, -3181077]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 3,
+						"DZN_CODE16" : "311051651",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0479,
+						"NEAR_FID" : 173,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033815, -3182046], [17033719, -3182017],
+								[17033590, -3182033], [17033579, -3181920],
+								[17033663, -3181839], [17033661, -3181811],
+								[17033713, -3181809], [17033989, -3181889],
+								[17033815, -3182046]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 4,
+						"DZN_CODE16" : "311051652",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0248,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033815, -3182046], [17033989, -3181889],
+								[17034125, -3181928], [17033898, -3182122],
+								[17033815, -3182046]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 5,
+						"DZN_CODE16" : "311051653",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0252,
+						"NEAR_FID" : 176,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033971, -3182211], [17033898, -3182122],
+								[17034092, -3181958], [17034175, -3182056],
+								[17034029, -3182185], [17033971, -3182211]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 6,
+						"DZN_CODE16" : "311051654",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0238,
+						"NEAR_FID" : 177,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033971, -3182211], [17034029, -3182185],
+								[17034175, -3182056], [17034257, -3182151],
+								[17034078, -3182299], [17033971, -3182211]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 7,
+						"DZN_CODE16" : "311051655",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0209,
+						"NEAR_FID" : 178,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034078, -3182299], [17034257, -3182151],
+								[17034339, -3182245], [17034238, -3182331],
+								[17034170, -3182363], [17034078, -3182299]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 8,
+						"DZN_CODE16" : "311051656",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0198,
+						"NEAR_FID" : 179,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034271, -3182463], [17034170, -3182363],
+								[17034238, -3182331], [17034339, -3182245],
+								[17034420, -3182338], [17034271, -3182463]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 9,
+						"DZN_CODE16" : "311051657",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0231,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034175, -3182056], [17034092, -3181958],
+								[17034125, -3181928], [17034207, -3181950],
+								[17034386, -3182033], [17034257, -3182151],
+								[17034175, -3182056]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 10,
+						"DZN_CODE16" : "311051658",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0197,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034257, -3182151], [17034386, -3182033],
+								[17034505, -3182092], [17034339, -3182245],
+								[17034257, -3182151]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 11,
+						"DZN_CODE16" : "311051659",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0289,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034505, -3182092], [17034386, -3182033],
+								[17034639, -3181822], [17034717, -3181916],
+								[17034505, -3182092]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 12,
+						"DZN_CODE16" : "311051660",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0549,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034390, -3181925], [17034171, -3181672],
+								[17034160, -3181608], [17034439, -3181769],
+								[17034496, -3181769], [17034667, -3181668],
+								[17034636, -3181746], [17034639, -3181822],
+								[17034444, -3181988], [17034390, -3181925]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 13,
+						"DZN_CODE16" : "311051669",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0493,
+						"NEAR_FID" : 183,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034717, -3181916], [17034639, -3181822],
+								[17034636, -3181746], [17034667, -3181668],
+								[17035087, -3181587], [17034717, -3181916]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 14,
+						"DZN_CODE16" : "311051670",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0297,
+						"NEAR_FID" : 185,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035273, -3181430], [17035360, -3181350],
+								[17035357, -3181435], [17035374, -3181503],
+								[17035171, -3181680], [17035087, -3181587],
+								[17035273, -3181430]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 15,
+						"DZN_CODE16" : "311051671",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0238,
+						"NEAR_FID" : 185,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034999, -3181669], [17035087, -3181587],
+								[17035171, -3181680], [17034983, -3181844],
+								[17034904, -3181753], [17034999, -3181669]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 16,
+						"DZN_CODE16" : "311051672",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0236,
+						"NEAR_FID" : 183,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034836, -3181813], [17034904, -3181753],
+								[17034983, -3181844], [17034795, -3182009],
+								[17034717, -3181916], [17034836, -3181813]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 17,
+						"DZN_CODE16" : "311051673",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.028,
+						"NEAR_FID" : 182,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034568, -3182040], [17034717, -3181916],
+								[17034795, -3182009], [17034581, -3182197],
+								[17034499, -3182099], [17034568, -3182040]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 18,
+						"DZN_CODE16" : "311051674",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0211,
+						"NEAR_FID" : 179,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034420, -3182338], [17034339, -3182245],
+								[17034499, -3182099], [17034581, -3182197],
+								[17034420, -3182338]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 19,
+						"DZN_CODE16" : "311051675",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.018,
+						"NEAR_FID" : 180,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034271, -3182463], [17034420, -3182338],
+								[17034501, -3182432], [17034350, -3182551],
+								[17034271, -3182463]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 20,
+						"DZN_CODE16" : "311051676",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0248,
+						"NEAR_FID" : 180,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034420, -3182338], [17034607, -3182173],
+								[17034692, -3182272], [17034501, -3182432],
+								[17034420, -3182338]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 21,
+						"DZN_CODE16" : "311051677",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0254,
+						"NEAR_FID" : 188,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034650, -3182136], [17034795, -3182009],
+								[17034880, -3182106], [17034692, -3182272],
+								[17034607, -3182173], [17034650, -3182136]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 22,
+						"DZN_CODE16" : "311051678",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0254,
+						"NEAR_FID" : 187,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034795, -3182009], [17034983, -3181844],
+								[17035068, -3181942], [17034880, -3182106],
+								[17034795, -3182009]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 23,
+						"DZN_CODE16" : "311051679",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0253,
+						"NEAR_FID" : 186,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035076, -3181764], [17035171, -3181680],
+								[17035257, -3181779], [17035068, -3181942],
+								[17034983, -3181844], [17035076, -3181764]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 24,
+						"DZN_CODE16" : "311051680",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0211,
+						"NEAR_FID" : 186,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035240, -3181621], [17035374, -3181503],
+								[17035381, -3181566], [17035354, -3181683],
+								[17035257, -3181779], [17035171, -3181680],
+								[17035240, -3181621]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 25,
+						"DZN_CODE16" : "311051681",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0573,
+						"NEAR_FID" : 195,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035282, -3181754], [17035354, -3181683],
+								[17035382, -3181542], [17035420, -3181544],
+								[17035445, -3181512], [17035508, -3181562],
+								[17035418, -3181727], [17035371, -3181777],
+								[17035383, -3181789], [17035360, -3181903],
+								[17035373, -3181906], [17035333, -3182120],
+								[17035235, -3182130], [17035151, -3182038],
+								[17035220, -3181970], [17035257, -3181779],
+								[17035282, -3181754]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 26,
+						"DZN_CODE16" : "311051682",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0176,
+						"NEAR_FID" : 194,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035151, -3182038], [17035068, -3181942],
+								[17035257, -3181779], [17035220, -3181970],
+								[17035151, -3182038]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 27,
+						"DZN_CODE16" : "311051683",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.025,
+						"NEAR_FID" : 193,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034931, -3182165], [17034880, -3182106],
+								[17035068, -3181942], [17035151, -3182038],
+								[17034964, -3182203], [17034931, -3182165]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 28,
+						"DZN_CODE16" : "311051684",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0251,
+						"NEAR_FID" : 192,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034931, -3182165], [17034964, -3182203],
+								[17034776, -3182368], [17034692, -3182272],
+								[17034880, -3182106], [17034931, -3182165]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 29,
+						"DZN_CODE16" : "311051685",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0255,
+						"NEAR_FID" : 191,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034501, -3182432], [17034692, -3182272],
+								[17034776, -3182368], [17034588, -3182533],
+								[17034501, -3182432]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 30,
+						"DZN_CODE16" : "311051686",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0245,
+						"NEAR_FID" : 191,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034350, -3182551], [17034501, -3182432],
+								[17034588, -3182533], [17034403, -3182686],
+								[17034343, -3182595], [17034350, -3182551]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 31,
+						"DZN_CODE16" : "311051687",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.058,
+						"NEAR_FID" : 201,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034567, -3182669], [17034508, -3182605],
+								[17034588, -3182533], [17034916, -3182912],
+								[17034702, -3183096], [17034627, -3182978],
+								[17034754, -3182886], [17034567, -3182669]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 32,
+						"DZN_CODE16" : "311051688",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0432,
+						"NEAR_FID" : 202,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034627, -3182978], [17034539, -3182835],
+								[17034511, -3182852], [17034403, -3182686],
+								[17034508, -3182605], [17034754, -3182886],
+								[17034627, -3182978]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 33,
+						"DZN_CODE16" : "311051689",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.025,
+						"NEAR_FID" : 200,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034698, -3182436], [17034776, -3182368],
+								[17034859, -3182464], [17034671, -3182629],
+								[17034588, -3182533], [17034698, -3182436]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 34,
+						"DZN_CODE16" : "311051690",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0249,
+						"NEAR_FID" : 199,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034859, -3182464], [17034776, -3182368],
+								[17034964, -3182203], [17035047, -3182299],
+								[17034859, -3182464]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 35,
+						"DZN_CODE16" : "311051691",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0249,
+						"NEAR_FID" : 197,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035151, -3182038], [17035235, -3182130],
+								[17035047, -3182299], [17034964, -3182203],
+								[17035151, -3182038]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 36,
+						"DZN_CODE16" : "311051692",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0336,
+						"NEAR_FID" : 197,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035358, -3182276], [17035248, -3182285],
+								[17035128, -3182393], [17035047, -3182299],
+								[17035235, -3182130], [17035303, -3182116],
+								[17035333, -3182120], [17035358, -3182276]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 37,
+						"DZN_CODE16" : "311051693",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0244,
+						"NEAR_FID" : 205,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034941, -3182558], [17034859, -3182464],
+								[17035047, -3182299], [17035128, -3182393],
+								[17034941, -3182558]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 38,
+						"DZN_CODE16" : "311051694",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0244,
+						"NEAR_FID" : 203,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034799, -3182517], [17034859, -3182464],
+								[17034941, -3182558], [17034752, -3182723],
+								[17034671, -3182629], [17034799, -3182517]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 39,
+						"DZN_CODE16" : "311051695",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0247,
+						"NEAR_FID" : 203,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034835, -3182819], [17034752, -3182723],
+								[17034941, -3182558], [17035022, -3182653],
+								[17034835, -3182819]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 40,
+						"DZN_CODE16" : "311051696",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0246,
+						"NEAR_FID" : 208,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034941, -3182558], [17035128, -3182393],
+								[17035210, -3182488], [17035022, -3182653],
+								[17034941, -3182558]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 41,
+						"DZN_CODE16" : "311051697",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0452,
+						"NEAR_FID" : 208,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035154, -3182370], [17035248, -3182285],
+								[17035358, -3182276], [17035392, -3182391],
+								[17035419, -3182577], [17035323, -3182593],
+								[17035288, -3182580], [17035128, -3182393],
+								[17035154, -3182370]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 42,
+						"DZN_CODE16" : "311051698",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0245,
+						"NEAR_FID" : 211,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035103, -3182748], [17035022, -3182653],
+								[17035210, -3182488], [17035288, -3182580],
+								[17035103, -3182748]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 43,
+						"DZN_CODE16" : "311051699",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0244,
+						"NEAR_FID" : 203,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034835, -3182819], [17035022, -3182653],
+								[17035103, -3182748], [17034916, -3182912],
+								[17034835, -3182819]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 44,
+						"DZN_CODE16" : "311051700",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3643,
+						"NEAR_FID" : 203,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034762, -3183052], [17035288, -3182580],
+								[17035323, -3182593], [17035430, -3182575],
+								[17035521, -3183128], [17035421, -3183145],
+								[17035393, -3183279], [17035420, -3183320],
+								[17035360, -3183420], [17035273, -3183481],
+								[17035265, -3183503], [17035143, -3183508],
+								[17035048, -3183476], [17035018, -3183508],
+								[17034954, -3183415], [17034907, -3183389],
+								[17034702, -3183096], [17034762, -3183052]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 45,
+						"DZN_CODE16" : "311051701",
+						"SA2_MAIN16" : "305011105",
+						"SA2_5DIG16" : "31105",
+						"SA2_NAME16" : "Brisbane City",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.048,
+						"NEAR_FID" : 186,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035360, -3181350], [17035354, -3181289],
+								[17035733, -3181357], [17035735, -3181368],
+								[17035717, -3181392], [17035646, -3181424],
+								[17035508, -3181562], [17035445, -3181512],
+								[17035420, -3181544], [17035382, -3181542],
+								[17035357, -3181435], [17035360, -3181350]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 46,
+						"DZN_CODE16" : "311061641",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1099,
+						"NEAR_FID" : 217,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035179, -3180819], [17035293, -3180683],
+								[17035376, -3180793], [17035645, -3181021],
+								[17035406, -3181299], [17035354, -3181289],
+								[17035323, -3181244], [17035314, -3181057],
+								[17035118, -3180888], [17035179, -3180819]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 47,
+						"DZN_CODE16" : "311061642",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1264,
+						"NEAR_FID" : 218,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035745, -3180611], [17035851, -3180491],
+								[17035997, -3180621], [17035983, -3180640],
+								[17036066, -3180709], [17035777, -3181034],
+								[17035713, -3181087], [17035496, -3180899],
+								[17035745, -3180611]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 48,
+						"DZN_CODE16" : "311061643",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.2037,
+						"NEAR_FID" : 221,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034925, -3180254], [17035342, -3180009],
+								[17035512, -3180161], [17035519, -3180198],
+								[17035631, -3180298], [17035354, -3180614],
+								[17035315, -3180579], [17035253, -3180649],
+								[17034877, -3180322], [17034925, -3180254]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 49,
+						"DZN_CODE16" : "311061644",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1263,
+						"NEAR_FID" : 218,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035507, -3180439], [17035631, -3180298],
+								[17035851, -3180491], [17035496, -3180899],
+								[17035376, -3180793], [17035253, -3180649],
+								[17035315, -3180579], [17035354, -3180614],
+								[17035507, -3180439]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 50,
+						"DZN_CODE16" : "311061645",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3465,
+						"NEAR_FID" : 219,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036210, -3180378], [17036328, -3180243],
+								[17036656, -3180550], [17036008, -3181289],
+								[17036116, -3181367], [17036042, -3181447],
+								[17035977, -3181406], [17035839, -3181401],
+								[17035841, -3181229], [17035713, -3181087],
+								[17035777, -3181034], [17036066, -3180709],
+								[17035983, -3180640], [17036210, -3180378]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 51,
+						"DZN_CODE16" : "311061646",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1569,
+						"NEAR_FID" : 222,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036072, -3179914], [17036105, -3179853],
+								[17036123, -3179728], [17036201, -3179785],
+								[17036359, -3179771], [17036380, -3179724],
+								[17036508, -3179785], [17036395, -3180148],
+								[17036229, -3180356], [17035963, -3180120],
+								[17036056, -3179909], [17036072, -3179914]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 52,
+						"DZN_CODE16" : "311061647",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0704,
+						"NEAR_FID" : 217,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035495, -3181192], [17035645, -3181021],
+								[17035830, -3181206], [17035839, -3181401],
+								[17035715, -3181420], [17035733, -3181357],
+								[17035406, -3181299], [17035495, -3181192]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 53,
+						"DZN_CODE16" : "311061995",
+						"SA2_MAIN16" : "305011106",
+						"SA2_5DIG16" : "31106",
+						"SA2_NAME16" : "Fortitude Valley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1344,
+						"NEAR_FID" : 219,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035749, -3180164], [17035872, -3180036],
+								[17036229, -3180356], [17035997, -3180621],
+								[17035631, -3180298], [17035749, -3180164]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 54,
+						"DZN_CODE16" : "311071773",
+						"SA2_MAIN16" : "305011107",
+						"SA2_5DIG16" : "31107",
+						"SA2_NAME16" : "Highgate Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.21,
+						"NEAR_FID" : 83,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033400, -3184009], [17033444, -3183730],
+								[17033978, -3183820], [17034067, -3183952],
+								[17034077, -3184187], [17034481, -3184251],
+								[17034466, -3184346], [17034542, -3184465],
+								[17034592, -3184639], [17034538, -3184630],
+								[17034596, -3184716], [17034545, -3185003],
+								[17034433, -3184983], [17034377, -3185302],
+								[17034313, -3185236], [17034253, -3185291],
+								[17034154, -3185193], [17034060, -3185285],
+								[17033613, -3184943], [17033353, -3184823],
+								[17033251, -3184853], [17033069, -3184840],
+								[17033039, -3184826], [17033177, -3183971],
+								[17033400, -3184009]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 55,
+						"DZN_CODE16" : "311081781",
+						"SA2_MAIN16" : "305011108",
+						"SA2_5DIG16" : "31108",
+						"SA2_NAME16" : "Kangaroo Point",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.3389,
+						"NEAR_FID" : 89,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035699, -3182959], [17035678, -3182688],
+								[17035689, -3182631], [17035648, -3182632],
+								[17035647, -3182608], [17035693, -3182606],
+								[17035677, -3182341], [17035669, -3182321],
+								[17035652, -3182321], [17035667, -3182229],
+								[17035650, -3181837], [17035705, -3181704],
+								[17035772, -3181661], [17035845, -3181658],
+								[17035922, -3181691], [17035978, -3181758],
+								[17036060, -3181958], [17036113, -3182214],
+								[17036163, -3182194], [17036246, -3182571],
+								[17036239, -3182718], [17036287, -3182822],
+								[17036289, -3182868], [17036352, -3182840],
+								[17036377, -3182896], [17036329, -3182949],
+								[17036410, -3183050], [17036449, -3183066],
+								[17036470, -3183044], [17036535, -3183093],
+								[17036529, -3183127], [17036547, -3183125],
+								[17036354, -3184221], [17035358, -3184054],
+								[17035303, -3183922], [17035247, -3183836],
+								[17035429, -3183781], [17035568, -3183623],
+								[17035583, -3183525], [17035614, -3183474],
+								[17035706, -3183140], [17035699, -3182959]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 56,
+						"DZN_CODE16" : "311091640",
+						"SA2_MAIN16" : "305011109",
+						"SA2_5DIG16" : "31109",
+						"SA2_NAME16" : "New Farm",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.1438,
+						"NEAR_FID" : 222,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036195, -3181634], [17036151, -3181611],
+								[17036104, -3181520], [17036042, -3181447],
+								[17036116, -3181367], [17036008, -3181289],
+								[17036656, -3180550], [17036956, -3180815],
+								[17036890, -3180890], [17037009, -3180996],
+								[17037089, -3181026], [17037470, -3181362],
+								[17037474, -3181441], [17037550, -3181365],
+								[17037639, -3181589], [17037965, -3182019],
+								[17037978, -3182060], [17037976, -3182199],
+								[17037963, -3182234], [17037919, -3182256],
+								[17037727, -3182491], [17037757, -3182528],
+								[17037712, -3182557], [17037665, -3182533],
+								[17037419, -3182768], [17037277, -3182882],
+								[17037179, -3182935], [17037014, -3182994],
+								[17036897, -3183008], [17036724, -3182986],
+								[17036664, -3182950], [17036581, -3182850],
+								[17036410, -3182345], [17036418, -3182273],
+								[17036354, -3181925], [17036291, -3181772],
+								[17036251, -3181748], [17036195, -3181634]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 57,
+						"DZN_CODE16" : "311101777",
+						"SA2_MAIN16" : "305011110",
+						"SA2_5DIG16" : "31110",
+						"SA2_NAME16" : "South Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.4034,
+						"NEAR_FID" : 230,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032931, -3183030], [17032761, -3182832],
+								[17032966, -3182642], [17033205, -3182463],
+								[17033387, -3182352], [17033450, -3182472],
+								[17033535, -3182581], [17033766, -3182699],
+								[17033867, -3182845], [17033318, -3183183],
+								[17033297, -3183223], [17033084, -3183189],
+								[17032931, -3183030]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 58,
+						"DZN_CODE16" : "311101778",
+						"SA2_MAIN16" : "305011110",
+						"SA2_5DIG16" : "31110",
+						"SA2_NAME16" : "South Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3692,
+						"NEAR_FID" : 229,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034133, -3183287], [17033867, -3182845],
+								[17034101, -3182687], [17034362, -3183108],
+								[17034387, -3183122], [17034396, -3183155],
+								[17034469, -3183256], [17034503, -3183275],
+								[17034542, -3183330], [17034571, -3183388],
+								[17034577, -3183441], [17034643, -3183552],
+								[17034670, -3183536], [17034756, -3183653],
+								[17034830, -3183711], [17034824, -3183731],
+								[17034899, -3183774], [17034899, -3183802],
+								[17034973, -3183798], [17035045, -3183818],
+								[17035039, -3183850], [17034934, -3183847],
+								[17034804, -3183959], [17034451, -3183906],
+								[17034216, -3183529], [17034235, -3183518],
+								[17034105, -3183304], [17034133, -3183287]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 59,
+						"DZN_CODE16" : "311101779",
+						"SA2_MAIN16" : "305011110",
+						"SA2_5DIG16" : "31110",
+						"SA2_NAME16" : "South Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.5874,
+						"NEAR_FID" : 226,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033610, -3183010], [17033867, -3182845],
+								[17034133, -3183287], [17034105, -3183304],
+								[17034235, -3183518], [17034216, -3183529],
+								[17034451, -3183906], [17034417, -3184126],
+								[17034438, -3184163], [17034503, -3184119],
+								[17034510, -3184204], [17034480, -3184224],
+								[17034481, -3184251], [17034077, -3184187],
+								[17034067, -3183952], [17033978, -3183820],
+								[17033614, -3183757], [17033297, -3183223],
+								[17033318, -3183183], [17033610, -3183010]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 60,
+						"DZN_CODE16" : "311101780",
+						"SA2_MAIN16" : "305011110",
+						"SA2_5DIG16" : "31110",
+						"SA2_NAME16" : "South Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.4853,
+						"NEAR_FID" : 83,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034804, -3183959], [17034840, -3183915],
+								[17034947, -3183843], [17035039, -3183850],
+								[17035045, -3183818], [17035247, -3183836],
+								[17035350, -3184030], [17035433, -3184317],
+								[17035116, -3184269], [17035092, -3184520],
+								[17035003, -3184691], [17034934, -3184754],
+								[17034912, -3184828], [17034692, -3184797],
+								[17034638, -3184731], [17034546, -3184512],
+								[17034542, -3184465], [17034466, -3184346],
+								[17034480, -3184224], [17034510, -3184204],
+								[17034503, -3184119], [17034438, -3184163],
+								[17034417, -3184126], [17034451, -3183906],
+								[17034804, -3183959]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 61,
+						"DZN_CODE16" : "311102000",
+						"SA2_MAIN16" : "305011110",
+						"SA2_5DIG16" : "31110",
+						"SA2_NAME16" : "South Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1715,
+						"NEAR_FID" : 229,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033399, -3182345], [17033485, -3182305],
+								[17033501, -3182321], [17033647, -3182249],
+								[17033761, -3182254], [17033831, -3182307],
+								[17033941, -3182430], [17033961, -3182489],
+								[17033975, -3182481], [17034101, -3182687],
+								[17033867, -3182845], [17033766, -3182699],
+								[17033535, -3182581], [17033450, -3182472],
+								[17033387, -3182352], [17033399, -3182345]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 62,
+						"DZN_CODE16" : "311111661",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1241,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034212, -3181439], [17034252, -3181318],
+								[17034406, -3181324], [17034568, -3181394],
+								[17034667, -3181668], [17034496, -3181769],
+								[17034407, -3181759], [17034160, -3181608],
+								[17034212, -3181439]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 63,
+						"DZN_CODE16" : "311111662",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0649,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034252, -3181318], [17034165, -3181288],
+								[17034200, -3181100], [17034607, -3181169],
+								[17034568, -3181394], [17034406, -3181324],
+								[17034252, -3181318]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 64,
+						"DZN_CODE16" : "311111663",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.2986,
+						"NEAR_FID" : 174,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033925, -3181164], [17033886, -3181126],
+								[17033717, -3181131], [17033549, -3181061],
+								[17033557, -3181007], [17033602, -3180925],
+								[17033704, -3180827], [17033820, -3180774],
+								[17034213, -3180740], [17034303, -3180713],
+								[17034451, -3180606], [17034583, -3180703],
+								[17034540, -3180796], [17034468, -3180841],
+								[17034525, -3181001], [17034502, -3181151],
+								[17034200, -3181100], [17034165, -3181288],
+								[17033984, -3181215], [17033925, -3181164]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 65,
+						"DZN_CODE16" : "311111664",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.4644,
+						"NEAR_FID" : 218,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034583, -3180703], [17034451, -3180606],
+								[17034517, -3180516], [17034651, -3180182],
+								[17034717, -3180102], [17034803, -3180043],
+								[17035082, -3179953], [17035118, -3180134],
+								[17034925, -3180254], [17034877, -3180322],
+								[17035293, -3180683], [17034838, -3181207],
+								[17034502, -3181151], [17034525, -3181001],
+								[17034468, -3180841], [17034540, -3180796],
+								[17034583, -3180703]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 66,
+						"DZN_CODE16" : "311111665",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0874,
+						"NEAR_FID" : 217,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035060, -3180955], [17035118, -3180888],
+								[17035314, -3181057], [17035323, -3181244],
+								[17035354, -3181289], [17034838, -3181207],
+								[17035060, -3180955]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 67,
+						"DZN_CODE16" : "311111666",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0852,
+						"NEAR_FID" : 185,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034846, -3181304], [17034818, -3181273],
+								[17034838, -3181207], [17035354, -3181289],
+								[17035360, -3181350], [17035087, -3181587],
+								[17034846, -3181304]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 68,
+						"DZN_CODE16" : "311111667",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0359,
+						"NEAR_FID" : 234,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034670, -3181181], [17034838, -3181207],
+								[17034803, -3181341], [17034691, -3181392],
+								[17034568, -3181394], [17034607, -3181169],
+								[17034670, -3181181]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 69,
+						"DZN_CODE16" : "311111668",
+						"SA2_MAIN16" : "305011111",
+						"SA2_5DIG16" : "31111",
+						"SA2_NAME16" : "Spring Hill",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0827,
+						"NEAR_FID" : 184,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034627, -3181545], [17034568, -3181394],
+								[17034635, -3181401], [17034771, -3181367],
+								[17034803, -3181341], [17034818, -3181273],
+								[17035087, -3181587], [17034667, -3181668],
+								[17034627, -3181545]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 70,
+						"DZN_CODE16" : "311121774",
+						"SA2_MAIN16" : "305011112",
+						"SA2_5DIG16" : "31112",
+						"SA2_NAME16" : "West End",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.4554,
+						"NEAR_FID" : 226,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032697, -3183633], [17032540, -3183606],
+								[17032569, -3183496], [17032587, -3183499],
+								[17032592, -3183465], [17032652, -3183374],
+								[17032779, -3183390], [17033032, -3183138],
+								[17033084, -3183189], [17033297, -3183223],
+								[17033614, -3183757], [17033444, -3183730],
+								[17033400, -3184009], [17033177, -3183971],
+								[17033169, -3184006], [17032651, -3183916],
+								[17032697, -3183633]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 71,
+						"DZN_CODE16" : "311121775",
+						"SA2_MAIN16" : "305011112",
+						"SA2_5DIG16" : "31112",
+						"SA2_NAME16" : "West End",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.5369,
+						"NEAR_FID" : 229,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032100, -3183527], [17032393, -3183160],
+								[17032576, -3182982], [17032761, -3182832],
+								[17033032, -3183138], [17032779, -3183390],
+								[17032652, -3183374], [17032592, -3183465],
+								[17032587, -3183499], [17032569, -3183496],
+								[17032540, -3183606], [17032513, -3183602],
+								[17032473, -3183722], [17032450, -3183719],
+								[17032414, -3183827], [17032384, -3183822],
+								[17032372, -3183843], [17032360, -3183916],
+								[17032285, -3183905], [17032008, -3184410],
+								[17031650, -3184201], [17031797, -3183952],
+								[17032100, -3183527]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 72,
+						"DZN_CODE16" : "311121776",
+						"SA2_MAIN16" : "305011112",
+						"SA2_5DIG16" : "31112",
+						"SA2_NAME16" : "West End",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.9731,
+						"NEAR_FID" : 226,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17031488, -3184466], [17031602, -3184256],
+								[17031650, -3184201], [17032008, -3184410],
+								[17032285, -3183905], [17032360, -3183916],
+								[17032372, -3183843], [17032384, -3183822],
+								[17032414, -3183827], [17032450, -3183719],
+								[17032473, -3183722], [17032483, -3183666],
+								[17032501, -3183669], [17032513, -3183602],
+								[17032697, -3183633], [17032651, -3183916],
+								[17033169, -3184006], [17033039, -3184826],
+								[17033022, -3184833], [17032921, -3184817],
+								[17032542, -3184812], [17032271, -3184825],
+								[17032271, -3184889], [17032204, -3184889],
+								[17032198, -3184828], [17031778, -3184822],
+								[17031675, -3184798], [17031527, -3184733],
+								[17031474, -3184661], [17031460, -3184619],
+								[17031464, -3184542], [17031488, -3184466]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 73,
+						"DZN_CODE16" : "311131817",
+						"SA2_MAIN16" : "305021113",
+						"SA2_5DIG16" : "31113",
+						"SA2_NAME16" : "Balmoral",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.3831,
+						"NEAR_FID" : 246,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17038780, -3180259], [17038832, -3180033],
+								[17038948, -3179952], [17039133, -3179783],
+								[17039591, -3179837], [17039866, -3179969],
+								[17040028, -3180419], [17040070, -3180458],
+								[17040358, -3180523], [17040318, -3180759],
+								[17040184, -3180736], [17040141, -3180994],
+								[17039985, -3180967], [17040005, -3180844],
+								[17039983, -3180841], [17039992, -3180785],
+								[17039929, -3180776], [17039858, -3181195],
+								[17039425, -3181117], [17039355, -3181464],
+								[17038969, -3181399], [17038920, -3181150],
+								[17038914, -3181019], [17038661, -3180976],
+								[17038780, -3180259]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 74,
+						"DZN_CODE16" : "311141816",
+						"SA2_MAIN16" : "305021114",
+						"SA2_5DIG16" : "31114",
+						"SA2_NAME16" : "Bulimba",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.0607,
+						"NEAR_FID" : 245,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17037631, -3179448], [17037526, -3179164],
+								[17037532, -3179045], [17037597, -3178961],
+								[17037708, -3178885], [17037884, -3178829],
+								[17038259, -3178848], [17038641, -3178899],
+								[17038649, -3178852], [17038727, -3178868],
+								[17038725, -3178880], [17038792, -3178891],
+								[17038786, -3178931], [17038852, -3178948],
+								[17038860, -3178898], [17038916, -3178908],
+								[17038907, -3178962], [17039024, -3178980],
+								[17039346, -3179074], [17039573, -3179168],
+								[17039587, -3179144], [17039685, -3179199],
+								[17039688, -3179251], [17039591, -3179837],
+								[17039180, -3179781], [17039102, -3179799],
+								[17038948, -3179952], [17038843, -3180021],
+								[17038814, -3180070], [17038719, -3180616],
+								[17038283, -3180597], [17038269, -3180672],
+								[17037832, -3180603], [17037823, -3180415],
+								[17037775, -3180413], [17037772, -3180376],
+								[17037825, -3180366], [17037790, -3180196],
+								[17037784, -3180181], [17037684, -3180165],
+								[17037676, -3180118], [17037776, -3180132],
+								[17037773, -3180076], [17037631, -3179448]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 75,
+						"DZN_CODE16" : "311151809",
+						"SA2_MAIN16" : "305021115",
+						"SA2_5DIG16" : "31115",
+						"SA2_NAME16" : "East Brisbane",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.8712,
+						"NEAR_FID" : 80,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036487, -3183436], [17036547, -3183125],
+								[17036651, -3183213], [17036716, -3183234],
+								[17036710, -3183272], [17036816, -3183305],
+								[17036915, -3183315], [17037021, -3183300],
+								[17037113, -3183252], [17037234, -3183144],
+								[17037463, -3183069], [17037461, -3183145],
+								[17037429, -3183273], [17037363, -3183382],
+								[17037381, -3183473], [17037432, -3183481],
+								[17037559, -3183422], [17037610, -3183206],
+								[17037631, -3183174], [17037676, -3183143],
+								[17037758, -3183155], [17037863, -3183222],
+								[17037926, -3183297], [17037940, -3183346],
+								[17037906, -3183408], [17037810, -3183500],
+								[17037777, -3183556], [17037759, -3183630],
+								[17037763, -3183771], [17037792, -3183786],
+								[17037811, -3183777], [17037920, -3183654],
+								[17037999, -3183599], [17038165, -3183517],
+								[17038208, -3183517], [17038251, -3183558],
+								[17038259, -3183627], [17038199, -3183758],
+								[17038219, -3183979], [17038180, -3184020],
+								[17037825, -3183912], [17037771, -3183906],
+								[17037728, -3183932], [17037645, -3184185],
+								[17037565, -3184315], [17037573, -3184459],
+								[17037536, -3184681], [17037509, -3184783],
+								[17037447, -3184896], [17037421, -3184908],
+								[17037267, -3184905], [17037191, -3184888],
+								[17037141, -3184971], [17037104, -3184980],
+								[17037014, -3184959], [17036945, -3184982],
+								[17036964, -3185019], [17037002, -3185046],
+								[17036993, -3185132], [17036604, -3185064],
+								[17036544, -3184938], [17036565, -3184927],
+								[17036508, -3184834], [17036424, -3184803],
+								[17036314, -3184893], [17036245, -3184832],
+								[17036487, -3183436]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 76,
+						"DZN_CODE16" : "311161815",
+						"SA2_MAIN16" : "305021116",
+						"SA2_5DIG16" : "31116",
+						"SA2_NAME16" : "Hawthorne",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.3864,
+						"NEAR_FID" : 245,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17037861, -3181240], [17037818, -3180902],
+								[17037837, -3180812], [17037832, -3180603],
+								[17038269, -3180672], [17038283, -3180597],
+								[17038719, -3180616], [17038661, -3180976],
+								[17038914, -3181019], [17038920, -3181150],
+								[17039051, -3181812], [17039050, -3182044],
+								[17038970, -3182267], [17038952, -3182551],
+								[17038669, -3182649], [17038489, -3182638],
+								[17038297, -3182727], [17038298, -3182599],
+								[17038349, -3182541], [17038373, -3182460],
+								[17038349, -3182428], [17038376, -3182433],
+								[17038375, -3182409], [17038362, -3182373],
+								[17038326, -3182367], [17038307, -3182294],
+								[17038273, -3182290], [17038248, -3182032],
+								[17038214, -3181983], [17038205, -3181933],
+								[17038095, -3181803], [17037891, -3181367],
+								[17037861, -3181240]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 77,
+						"DZN_CODE16" : "311171812",
+						"SA2_MAIN16" : "305021117",
+						"SA2_5DIG16" : "31117",
+						"SA2_NAME16" : "Morningside - Seven Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.049,
+						"NEAR_FID" : 72,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17040391, -3182932], [17040310, -3182824],
+								[17040319, -3182764], [17040280, -3182756],
+								[17040319, -3182523], [17040432, -3182542],
+								[17040673, -3182625], [17041650, -3182787],
+								[17041630, -3182903], [17041776, -3182928],
+								[17041687, -3183130], [17041638, -3183175],
+								[17041687, -3183216], [17041670, -3183231],
+								[17041715, -3183272], [17041707, -3183279],
+								[17041727, -3183282], [17041641, -3183758],
+								[17041293, -3183699], [17041272, -3183849],
+								[17041151, -3183828], [17041036, -3183855],
+								[17040955, -3183899], [17040951, -3183935],
+								[17040983, -3184022], [17040951, -3184245],
+								[17040916, -3184250], [17040888, -3184347],
+								[17040814, -3184341], [17040777, -3184355],
+								[17040739, -3184392], [17040720, -3184440],
+								[17040610, -3184417], [17040387, -3184167],
+								[17040382, -3184087], [17040296, -3184070],
+								[17040230, -3183999], [17040141, -3184057],
+								[17040149, -3183989], [17039781, -3183920],
+								[17039783, -3183909], [17039738, -3183901],
+								[17039744, -3183841], [17039680, -3183767],
+								[17039398, -3183637], [17039310, -3183353],
+								[17039424, -3183372], [17039473, -3183319],
+								[17039527, -3183301], [17039613, -3183308],
+								[17039679, -3182931], [17040280, -3183028],
+								[17040391, -3182932]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 78,
+						"DZN_CODE16" : "311171814",
+						"SA2_MAIN16" : "305021117",
+						"SA2_5DIG16" : "31117",
+						"SA2_NAME16" : "Morningside - Seven Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.8081,
+						"NEAR_FID" : 73,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17039058, -3181888], [17038969, -3181399],
+								[17039355, -3181464], [17039425, -3181117],
+								[17039858, -3181195], [17039929, -3180776],
+								[17039992, -3180785], [17039983, -3180841],
+								[17040005, -3180844], [17039985, -3180967],
+								[17040141, -3180994], [17040184, -3180736],
+								[17040318, -3180759], [17040358, -3180523],
+								[17040726, -3180582], [17040685, -3180833],
+								[17041284, -3180933], [17041052, -3181222],
+								[17040948, -3181458], [17040785, -3181746],
+								[17040627, -3181891], [17040624, -3181908],
+								[17040880, -3181953], [17040869, -3181984],
+								[17040782, -3181984], [17040673, -3182625],
+								[17040432, -3182542], [17040319, -3182523],
+								[17040280, -3182756], [17040319, -3182764],
+								[17040310, -3182824], [17040391, -3182932],
+								[17040280, -3183028], [17039679, -3182931],
+								[17039613, -3183308], [17039527, -3183301],
+								[17039473, -3183319], [17039424, -3183372],
+								[17039211, -3183334], [17039280, -3183148],
+								[17039252, -3183069], [17039270, -3182972],
+								[17039337, -3182882], [17039101, -3182830],
+								[17039020, -3182615], [17038952, -3182551],
+								[17038970, -3182267], [17039050, -3182044],
+								[17039058, -3181888]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 79,
+						"DZN_CODE16" : "311171818",
+						"SA2_MAIN16" : "305021117",
+						"SA2_5DIG16" : "31117",
+						"SA2_NAME16" : "Morningside - Seven Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.7881,
+						"NEAR_FID" : 25,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17040611, -3180562], [17040120, -3180479],
+								[17040070, -3180458], [17040028, -3180419],
+								[17039866, -3179969], [17039591, -3179837],
+								[17039688, -3179251], [17039750, -3179313],
+								[17039840, -3179371], [17039882, -3179356],
+								[17039909, -3179368], [17039927, -3179257],
+								[17040196, -3179310], [17040777, -3179485],
+								[17040753, -3179628], [17040866, -3179681],
+								[17040995, -3179708], [17041256, -3179803],
+								[17041275, -3179688], [17041558, -3179719],
+								[17041540, -3179829], [17041647, -3179819],
+								[17041700, -3179791], [17041685, -3179719],
+								[17041771, -3179691], [17041868, -3179722],
+								[17041798, -3180150], [17041754, -3180234],
+								[17041657, -3180776], [17041482, -3180825],
+								[17041284, -3180933], [17040685, -3180833],
+								[17040726, -3180582], [17040611, -3180562]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 80,
+						"DZN_CODE16" : "311181810",
+						"SA2_MAIN16" : "305021118",
+						"SA2_5DIG16" : "31118",
+						"SA2_NAME16" : "Norman Park",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.2523,
+						"NEAR_FID" : 72,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17037462, -3183121], [17037463, -3183069],
+								[17037622, -3183012], [17037800, -3182924],
+								[17037952, -3182778], [17037992, -3182746],
+								[17038027, -3182741], [17038136, -3182638],
+								[17038220, -3182512], [17038273, -3182290],
+								[17038307, -3182294], [17038326, -3182367],
+								[17038362, -3182373], [17038376, -3182433],
+								[17038349, -3182428], [17038373, -3182460],
+								[17038349, -3182541], [17038298, -3182599],
+								[17038297, -3182727], [17038489, -3182638],
+								[17038669, -3182649], [17038952, -3182551],
+								[17039020, -3182615], [17039101, -3182830],
+								[17039337, -3182882], [17039270, -3182972],
+								[17039252, -3183069], [17039280, -3183148],
+								[17039211, -3183334], [17039310, -3183353],
+								[17039398, -3183637], [17039680, -3183767],
+								[17039744, -3183841], [17039738, -3183901],
+								[17039783, -3183909], [17039781, -3183920],
+								[17040149, -3183989], [17040141, -3184057],
+								[17040230, -3183999], [17040296, -3184070],
+								[17040382, -3184087], [17040387, -3184167],
+								[17040624, -3184422], [17040603, -3184501],
+								[17039874, -3184354], [17039831, -3184583],
+								[17038653, -3184360], [17038438, -3183975],
+								[17038245, -3183673], [17038255, -3183582],
+								[17038220, -3183523], [17038165, -3183517],
+								[17037999, -3183599], [17037920, -3183654],
+								[17037811, -3183777], [17037792, -3183786],
+								[17037763, -3183771], [17037759, -3183630],
+								[17037777, -3183556], [17037810, -3183500],
+								[17037906, -3183408], [17037940, -3183346],
+								[17037926, -3183297], [17037827, -3183192],
+								[17037758, -3183155], [17037664, -3183150],
+								[17037613, -3183198], [17037559, -3183422],
+								[17037432, -3183481], [17037381, -3183473],
+								[17037363, -3183382], [17037429, -3183273],
+								[17037462, -3183121]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 81,
+						"DZN_CODE16" : "311191616",
+						"SA2_MAIN16" : "305031119",
+						"SA2_5DIG16" : "31119",
+						"SA2_NAME16" : "Albion",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.5055,
+						"NEAR_FID" : 255,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036284, -3177332], [17035995, -3177211],
+								[17036076, -3176692], [17036570, -3176770],
+								[17036582, -3176682], [17036920, -3176731],
+								[17036906, -3176819], [17036935, -3176852],
+								[17036917, -3177049], [17037014, -3177033],
+								[17037212, -3177072], [17037372, -3177003],
+								[17037487, -3176917], [17037506, -3176933],
+								[17037491, -3177043], [17037571, -3177081],
+								[17037524, -3177144], [17037508, -3177271],
+								[17037459, -3177264], [17037456, -3177300],
+								[17037596, -3177333], [17037581, -3177694],
+								[17037299, -3177653], [17037235, -3178079],
+								[17037334, -3178162], [17037348, -3178206],
+								[17037362, -3178208], [17037321, -3178457],
+								[17037328, -3178491], [17037219, -3178519],
+								[17037206, -3178628], [17037244, -3178702],
+								[17037143, -3178778], [17036961, -3178754],
+								[17036776, -3178671], [17036722, -3178682],
+								[17036596, -3178793], [17036567, -3178793],
+								[17036543, -3178765], [17036524, -3178682],
+								[17036549, -3178493], [17036503, -3178338],
+								[17036506, -3178259], [17036556, -3178184],
+								[17036685, -3178071], [17036709, -3177984],
+								[17036690, -3177883], [17036639, -3177767],
+								[17036577, -3177755], [17036451, -3177769],
+								[17036362, -3177736], [17036319, -3177752],
+								[17036259, -3177502], [17036258, -3177426],
+								[17036284, -3177332]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 82,
+						"DZN_CODE16" : "311201621",
+						"SA2_MAIN16" : "305031120",
+						"SA2_5DIG16" : "31120",
+						"SA2_NAME16" : "Alderley",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.4567,
+						"NEAR_FID" : 48,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17031813, -3176053], [17031892, -3175673],
+								[17031942, -3175579], [17032033, -3175472],
+								[17032097, -3175559], [17032158, -3175577],
+								[17032204, -3175566], [17032348, -3175441],
+								[17032441, -3175285], [17032474, -3175293],
+								[17032590, -3175275], [17032623, -3175259],
+								[17032654, -3175213], [17032807, -3175143],
+								[17032846, -3175131], [17032891, -3175146],
+								[17032864, -3175172], [17032752, -3175844],
+								[17032754, -3175893], [17032810, -3175880],
+								[17032845, -3176047], [17032806, -3176203],
+								[17032765, -3176217], [17032693, -3176576],
+								[17032716, -3176642], [17032813, -3176668],
+								[17032699, -3177335], [17032459, -3177298],
+								[17032457, -3177392], [17032214, -3177352],
+								[17032218, -3177324], [17032045, -3177296],
+								[17032040, -3177320], [17032060, -3177325],
+								[17031953, -3177997], [17031929, -3178018],
+								[17031924, -3178081], [17031868, -3178129],
+								[17031843, -3178077], [17031804, -3178080],
+								[17031734, -3178150], [17031788, -3178207],
+								[17031683, -3178253], [17031536, -3178171],
+								[17031225, -3178122], [17031314, -3177482],
+								[17031064, -3177556], [17030967, -3177541],
+								[17031097, -3176770], [17031149, -3176778],
+								[17031178, -3176588], [17031462, -3176631],
+								[17031480, -3176518], [17031433, -3176513],
+								[17031481, -3176232], [17031708, -3176272],
+								[17031840, -3176315], [17031836, -3176147],
+								[17031813, -3176053]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 83,
+						"DZN_CODE16" : "311211615",
+						"SA2_MAIN16" : "305031121",
+						"SA2_5DIG16" : "31121",
+						"SA2_NAME16" : "Ascot",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.4681,
+						"NEAR_FID" : 54,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17038364, -3177182], [17038390, -3177008],
+								[17038377, -3176989], [17038395, -3176975],
+								[17038477, -3176430], [17038924, -3176499],
+								[17038875, -3176843], [17038919, -3176857],
+								[17038942, -3176798], [17039000, -3176734],
+								[17039062, -3176697], [17039146, -3176677],
+								[17039277, -3176681], [17039454, -3176732],
+								[17039966, -3176805], [17040008, -3176502],
+								[17040787, -3176618], [17040747, -3176826],
+								[17040749, -3176965], [17040709, -3176961],
+								[17040673, -3177211], [17040610, -3177202],
+								[17040567, -3177515], [17039878, -3177430],
+								[17039783, -3178100], [17039658, -3178147],
+								[17039656, -3178135], [17039101, -3178056],
+								[17039104, -3178020], [17038330, -3177906],
+								[17038353, -3177771], [17038022, -3177719],
+								[17038005, -3177814], [17037958, -3177805],
+								[17037853, -3177743], [17037760, -3177736],
+								[17037643, -3177679], [17037581, -3177694],
+								[17037596, -3177333], [17037456, -3177300],
+								[17037459, -3177264], [17037508, -3177271],
+								[17037516, -3177203], [17038342, -3177328],
+								[17038364, -3177182]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 84,
+						"DZN_CODE16" : "311221606",
+						"SA2_MAIN16" : "305031122",
+						"SA2_5DIG16" : "31122",
+						"SA2_NAME16" : "Clayfield",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.9262,
+						"NEAR_FID" : 63,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17037538, -3175296], [17037684, -3174263],
+								[17037856, -3174442], [17038023, -3174552],
+								[17038098, -3174633], [17038223, -3174656],
+								[17038250, -3174679], [17038284, -3174749],
+								[17038378, -3174807], [17038522, -3174843],
+								[17038945, -3174895], [17038856, -3175465],
+								[17039070, -3175502], [17039010, -3175920],
+								[17038561, -3175854], [17038410, -3176887],
+								[17038395, -3176975], [17038377, -3176989],
+								[17038390, -3177008], [17038342, -3177328],
+								[17037516, -3177203], [17037524, -3177144],
+								[17037571, -3177081], [17037491, -3177043],
+								[17037506, -3176933], [17037487, -3176917],
+								[17037372, -3177003], [17037212, -3177072],
+								[17037014, -3177033], [17036917, -3177049],
+								[17036935, -3176852], [17036906, -3176819],
+								[17036969, -3176419], [17036887, -3176405],
+								[17036922, -3176179], [17037136, -3176215],
+								[17037267, -3175370], [17037521, -3175408],
+								[17037538, -3175296]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 85,
+						"DZN_CODE16" : "311231619",
+						"SA2_MAIN16" : "305031123",
+						"SA2_5DIG16" : "31123",
+						"SA2_NAME16" : "Grange",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.7881,
+						"NEAR_FID" : 47,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032726, -3176452], [17032765, -3176217],
+								[17032806, -3176203], [17032845, -3176047],
+								[17032810, -3175880], [17032754, -3175893],
+								[17032752, -3175844], [17032865, -3175184],
+								[17033004, -3175132], [17033050, -3175156],
+								[17033060, -3175193], [17033033, -3175224],
+								[17032974, -3175239], [17032966, -3175333],
+								[17033022, -3175390], [17033035, -3175486],
+								[17033274, -3175532], [17033312, -3175562],
+								[17033324, -3175697], [17033241, -3175745],
+								[17033217, -3175778], [17033276, -3175887],
+								[17033354, -3175962], [17033410, -3175984],
+								[17033518, -3175982], [17033676, -3175910],
+								[17033757, -3175851], [17033810, -3175786],
+								[17033961, -3175704], [17033999, -3175628],
+								[17034117, -3175617], [17034304, -3175639],
+								[17034344, -3175659], [17034361, -3175689],
+								[17034359, -3175725], [17034293, -3175850],
+								[17034342, -3176038], [17034491, -3176171],
+								[17034528, -3176300], [17034584, -3176341],
+								[17034537, -3176596], [17034402, -3176580],
+								[17034350, -3176926], [17034001, -3176867],
+								[17033931, -3177306], [17033634, -3177247],
+								[17033623, -3177314], [17033080, -3177223],
+								[17033161, -3176739], [17032727, -3176650],
+								[17032693, -3176576], [17032726, -3176452]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 86,
+						"DZN_CODE16" : "311241614",
+						"SA2_MAIN16" : "305031124",
+						"SA2_5DIG16" : "31124",
+						"SA2_NAME16" : "Hamilton (Qld)",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.6387,
+						"NEAR_FID" : 57,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17037261, -3177904], [17037299, -3177653],
+								[17037581, -3177694], [17037643, -3177679],
+								[17037760, -3177736], [17037853, -3177743],
+								[17037958, -3177805], [17038005, -3177814],
+								[17038022, -3177719], [17038353, -3177771],
+								[17038330, -3177906], [17039104, -3178020],
+								[17039101, -3178056], [17039656, -3178135],
+								[17039658, -3178147], [17039783, -3178100],
+								[17039878, -3177430], [17040488, -3177514],
+								[17040581, -3177548], [17040619, -3177603],
+								[17040589, -3177869], [17039768, -3178230],
+								[17039713, -3178620], [17039687, -3178663],
+								[17039647, -3178651], [17039620, -3178739],
+								[17039280, -3178646], [17039014, -3178593],
+								[17038849, -3178579], [17038852, -3178538],
+								[17038782, -3178555], [17038546, -3178550],
+								[17038360, -3178509], [17038256, -3178469],
+								[17038139, -3178454], [17037782, -3178483],
+								[17037586, -3178544], [17037553, -3178573],
+								[17037497, -3178559], [17037444, -3178569],
+								[17037380, -3178596], [17037244, -3178702],
+								[17037206, -3178628], [17037219, -3178519],
+								[17037328, -3178491], [17037321, -3178457],
+								[17037362, -3178208], [17037348, -3178206],
+								[17037334, -3178162], [17037235, -3178079],
+								[17037261, -3177904]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 87,
+						"DZN_CODE16" : "311251607",
+						"SA2_MAIN16" : "305031125",
+						"SA2_5DIG16" : "31125",
+						"SA2_NAME16" : "Hendra",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.6919,
+						"NEAR_FID" : 53,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17038930, -3175006], [17038945, -3174895],
+								[17039285, -3174937], [17039552, -3174788],
+								[17040123, -3174423], [17040203, -3174409],
+								[17040261, -3174521], [17040427, -3174716],
+								[17040477, -3174845], [17040485, -3174932],
+								[17040468, -3175166], [17040404, -3175462],
+								[17040420, -3175646], [17040495, -3175818],
+								[17040730, -3176083], [17040796, -3176207],
+								[17040827, -3176405], [17040787, -3176618],
+								[17040008, -3176502], [17039966, -3176805],
+								[17039454, -3176732], [17039277, -3176681],
+								[17039146, -3176677], [17039062, -3176697],
+								[17039000, -3176734], [17038942, -3176798],
+								[17038919, -3176857], [17038875, -3176843],
+								[17038924, -3176499], [17038477, -3176430],
+								[17038561, -3175854], [17039010, -3175920],
+								[17039070, -3175502], [17038856, -3175465],
+								[17038930, -3175006]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 88,
+						"DZN_CODE16" : "311261633",
+						"SA2_MAIN16" : "305031126",
+						"SA2_5DIG16" : "31126",
+						"SA2_NAME16" : "Kelvin Grove - Herston",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.0894,
+						"NEAR_FID" : 261,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032404, -3179312], [17032355, -3179186],
+								[17032393, -3179164], [17032453, -3179079],
+								[17032476, -3178983], [17032664, -3178920],
+								[17032903, -3178712], [17032953, -3178631],
+								[17033004, -3178605], [17033070, -3178607],
+								[17033129, -3178623], [17033246, -3178796],
+								[17033356, -3178861], [17033483, -3178833],
+								[17033558, -3178778], [17033806, -3179430],
+								[17033659, -3179551], [17033483, -3179615],
+								[17033356, -3179607], [17033115, -3179702],
+								[17033127, -3179806], [17033094, -3180005],
+								[17033219, -3180371], [17033196, -3180374],
+								[17032661, -3180289], [17032678, -3180104],
+								[17032495, -3179531], [17032404, -3179312]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 89,
+						"DZN_CODE16" : "311261634",
+						"SA2_MAIN16" : "305031126",
+						"SA2_5DIG16" : "31126",
+						"SA2_NAME16" : "Kelvin Grove - Herston",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.6107,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033130, -3180123], [17033094, -3180005],
+								[17033127, -3179806], [17033115, -3179702],
+								[17033356, -3179607], [17033483, -3179615],
+								[17033659, -3179551], [17033964, -3179621],
+								[17033863, -3180249], [17033774, -3180339],
+								[17033668, -3180253], [17033659, -3180340],
+								[17033704, -3180491], [17033768, -3180637],
+								[17033771, -3180687], [17033703, -3180743],
+								[17033723, -3180817], [17033602, -3180925],
+								[17033557, -3181007], [17033549, -3181061],
+								[17033525, -3181042], [17033499, -3180933],
+								[17033219, -3180371], [17033130, -3180123]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 90,
+						"DZN_CODE16" : "311261635",
+						"SA2_MAIN16" : "305031126",
+						"SA2_5DIG16" : "31126",
+						"SA2_NAME16" : "Kelvin Grove - Herston",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.4394,
+						"NEAR_FID" : 236,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033745, -3179262], [17033558, -3178778],
+								[17033677, -3178684], [17033765, -3178646],
+								[17033882, -3178654], [17034019, -3178745],
+								[17034283, -3178845], [17034379, -3178830],
+								[17034455, -3178855], [17034504, -3178887],
+								[17034607, -3179021], [17034680, -3179066],
+								[17034753, -3179072], [17034878, -3179050],
+								[17035011, -3179130], [17035130, -3178996],
+								[17035175, -3178994], [17035222, -3179042],
+								[17035182, -3179297], [17034896, -3179246],
+								[17034784, -3179268], [17034796, -3179324],
+								[17034652, -3179353], [17034651, -3179389],
+								[17034672, -3179392], [17034653, -3179418],
+								[17034669, -3179425], [17034591, -3179528],
+								[17034443, -3179583], [17034374, -3179676],
+								[17034588, -3179742], [17034899, -3179781],
+								[17034905, -3179825], [17034934, -3179844],
+								[17035026, -3179833], [17035105, -3179779],
+								[17035082, -3179953], [17034803, -3180043],
+								[17034717, -3180102], [17034651, -3180182],
+								[17034608, -3180268], [17034517, -3180516],
+								[17034451, -3180606], [17034303, -3180713],
+								[17034157, -3180750], [17033820, -3180774],
+								[17033723, -3180817], [17033703, -3180743],
+								[17033771, -3180687], [17033776, -3180666],
+								[17033659, -3180340], [17033668, -3180253],
+								[17033774, -3180339], [17033863, -3180249],
+								[17033964, -3179621], [17033659, -3179551],
+								[17033806, -3179430], [17033745, -3179262]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 91,
+						"DZN_CODE16" : "311261636",
+						"SA2_MAIN16" : "305031126",
+						"SA2_5DIG16" : "31126",
+						"SA2_NAME16" : "Kelvin Grove - Herston",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.2299,
+						"NEAR_FID" : 262,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034695, -3179755], [17034588, -3179742],
+								[17034374, -3179676], [17034443, -3179583],
+								[17034591, -3179528], [17034669, -3179425],
+								[17034653, -3179418], [17034672, -3179392],
+								[17034651, -3179389], [17034652, -3179353],
+								[17034796, -3179324], [17034784, -3179268],
+								[17034896, -3179246], [17035182, -3179297],
+								[17035105, -3179779], [17035026, -3179833],
+								[17034934, -3179844], [17034905, -3179825],
+								[17034899, -3179781], [17034695, -3179755]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 92,
+						"DZN_CODE16" : "311271620",
+						"SA2_MAIN16" : "305031127",
+						"SA2_5DIG16" : "31127",
+						"SA2_NAME16" : "Newmarket",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.6584,
+						"NEAR_FID" : 254,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032457, -3177392], [17032459, -3177298],
+								[17032699, -3177335], [17032813, -3176668],
+								[17033161, -3176739], [17033080, -3177223],
+								[17033408, -3177278], [17033341, -3177805],
+								[17033467, -3177834], [17033441, -3177985],
+								[17033491, -3177992], [17033390, -3178638],
+								[17033168, -3178603], [17033138, -3178635],
+								[17033070, -3178607], [17033004, -3178605],
+								[17032953, -3178631], [17032903, -3178712],
+								[17032664, -3178920], [17032476, -3178983],
+								[17032453, -3179079], [17032387, -3179169],
+								[17032334, -3179193], [17032243, -3179166],
+								[17032109, -3179193], [17032066, -3179163],
+								[17032027, -3179099], [17032028, -3179032],
+								[17032047, -3179007], [17032086, -3179008],
+								[17032145, -3178970], [17032196, -3178860],
+								[17032190, -3178811], [17032154, -3178757],
+								[17032101, -3178722], [17032012, -3178561],
+								[17032019, -3178547], [17032074, -3178490],
+								[17032136, -3178456], [17032196, -3178462],
+								[17032250, -3178503], [17032356, -3178533],
+								[17032502, -3178511], [17032576, -3178450],
+								[17032604, -3178301], [17032572, -3178145],
+								[17032504, -3178065], [17032482, -3178065],
+								[17032491, -3178127], [17032434, -3178126],
+								[17032399, -3178108], [17032419, -3178079],
+								[17032409, -3178045], [17032350, -3178017],
+								[17032235, -3178006], [17032146, -3178051],
+								[17032046, -3178011], [17031953, -3177997],
+								[17032060, -3177325], [17032040, -3177320],
+								[17032045, -3177296], [17032146, -3177312],
+								[17032218, -3177324], [17032214, -3177352],
+								[17032457, -3177392]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 93,
+						"DZN_CODE16" : "311281637",
+						"SA2_MAIN16" : "305031128",
+						"SA2_5DIG16" : "31128",
+						"SA2_NAME16" : "Newstead - Bowen Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.0483,
+						"NEAR_FID" : 253,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035893, -3179251], [17035685, -3179217],
+								[17035648, -3179159], [17035529, -3179129],
+								[17035546, -3179104], [17035544, -3179065],
+								[17035499, -3178848], [17035524, -3178810],
+								[17035747, -3178659], [17035771, -3178608],
+								[17036077, -3178321], [17036106, -3178259],
+								[17036178, -3177917], [17036236, -3177824],
+								[17036343, -3177736], [17036451, -3177769],
+								[17036577, -3177755], [17036639, -3177767],
+								[17036690, -3177883], [17036710, -3178011],
+								[17036666, -3178095], [17036556, -3178184],
+								[17036506, -3178259], [17036503, -3178338],
+								[17036549, -3178493], [17036527, -3178727],
+								[17036576, -3178797], [17036623, -3178776],
+								[17036696, -3178700], [17036752, -3178673],
+								[17036820, -3178681], [17036948, -3178745],
+								[17036821, -3178868], [17036629, -3179219],
+								[17036599, -3179418], [17036617, -3179618],
+								[17036098, -3179525], [17036078, -3179304],
+								[17035900, -3179278], [17035893, -3179251]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 94,
+						"DZN_CODE16" : "311281638",
+						"SA2_MAIN16" : "305031128",
+						"SA2_5DIG16" : "31128",
+						"SA2_NAME16" : "Newstead - Bowen Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.7627,
+						"NEAR_FID" : 220,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035142, -3179541], [17035222, -3179042],
+								[17035299, -3179138], [17035363, -3179176],
+								[17035472, -3179173], [17035529, -3179129],
+								[17035648, -3179159], [17035685, -3179217],
+								[17035893, -3179251], [17035900, -3179278],
+								[17036078, -3179304], [17036098, -3179525],
+								[17036600, -3179611], [17036617, -3179618],
+								[17036619, -3179646], [17036610, -3179696],
+								[17036585, -3179728], [17036508, -3179785],
+								[17036380, -3179724], [17036359, -3179771],
+								[17036201, -3179785], [17036123, -3179728],
+								[17036105, -3179853], [17036072, -3179914],
+								[17036056, -3179909], [17035963, -3180120],
+								[17035872, -3180036], [17035631, -3180298],
+								[17035519, -3180198], [17035512, -3180161],
+								[17035342, -3180009], [17035118, -3180134],
+								[17035082, -3179922], [17035142, -3179541]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 95,
+						"DZN_CODE16" : "311281639",
+						"SA2_MAIN16" : "305031128",
+						"SA2_5DIG16" : "31128",
+						"SA2_NAME16" : "Newstead - Bowen Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.5963,
+						"NEAR_FID" : 222,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036619, -3179646], [17036599, -3179418],
+								[17036626, -3179226], [17036821, -3178868],
+								[17036948, -3178745], [17037143, -3178778],
+								[17037141, -3178810], [17037173, -3178850],
+								[17037105, -3178871], [17037070, -3178938],
+								[17037076, -3178991], [17037050, -3179069],
+								[17037039, -3179257], [17037058, -3179258],
+								[17037082, -3179398], [17037098, -3179394],
+								[17037133, -3179483], [17037115, -3179493],
+								[17037186, -3179616], [17037176, -3179622],
+								[17037143, -3179589], [17037118, -3179602],
+								[17037212, -3179822], [17037059, -3180010],
+								[17036976, -3179996], [17036967, -3180039],
+								[17036831, -3180181], [17036810, -3180276],
+								[17036710, -3180391], [17036653, -3180338],
+								[17036562, -3180465], [17036328, -3180243],
+								[17036395, -3180148], [17036508, -3179785],
+								[17036585, -3179728], [17036610, -3179696],
+								[17036619, -3179646]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 96,
+						"DZN_CODE16" : "311281994",
+						"SA2_MAIN16" : "305031128",
+						"SA2_5DIG16" : "31128",
+						"SA2_NAME16" : "Newstead - Bowen Hills",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.6482,
+						"NEAR_FID" : 222,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036710, -3180391], [17036810, -3180276],
+								[17036831, -3180181], [17036967, -3180039],
+								[17036976, -3179996], [17037059, -3180010],
+								[17037212, -3179822], [17037239, -3179863],
+								[17037298, -3179834], [17037352, -3179940],
+								[17037297, -3179967], [17037336, -3180074],
+								[17037453, -3180290], [17037525, -3180486],
+								[17037541, -3180628], [17037521, -3180771],
+								[17037571, -3180776], [17037588, -3181164],
+								[17037612, -3181304], [17037570, -3181313],
+								[17037474, -3181441], [17037470, -3181362],
+								[17037089, -3181026], [17037009, -3180996],
+								[17036890, -3180890], [17036956, -3180815],
+								[17036562, -3180465], [17036653, -3180338],
+								[17036710, -3180391]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 97,
+						"DZN_CODE16" : "311291618",
+						"SA2_MAIN16" : "305031129",
+						"SA2_5DIG16" : "31129",
+						"SA2_NAME16" : "Wilston",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.3878,
+						"NEAR_FID" : 257,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17033364, -3177634], [17033408, -3177278],
+								[17033623, -3177314], [17033634, -3177247],
+								[17033931, -3177306], [17034001, -3176867],
+								[17034472, -3176944], [17034584, -3177110],
+								[17034567, -3177193], [17034579, -3177195],
+								[17034536, -3177465], [17034524, -3177463],
+								[17034312, -3178849], [17034111, -3178787],
+								[17034019, -3178745], [17033919, -3178672],
+								[17033811, -3178643], [17033719, -3178660],
+								[17033483, -3178833], [17033391, -3178861],
+								[17033356, -3178861], [17033246, -3178796],
+								[17033138, -3178635], [17033168, -3178603],
+								[17033390, -3178638], [17033491, -3177992],
+								[17033441, -3177985], [17033467, -3177834],
+								[17033341, -3177805], [17033364, -3177634]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 98,
+						"DZN_CODE16" : "311301617",
+						"SA2_MAIN16" : "305031130",
+						"SA2_5DIG16" : "31130",
+						"SA2_NAME16" : "Windsor",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.9152,
+						"NEAR_FID" : 253,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17034498, -3177624], [17034524, -3177463],
+								[17034536, -3177465], [17034584, -3177110],
+								[17034472, -3176944], [17034350, -3176926],
+								[17034402, -3176580], [17034795, -3176634],
+								[17035514, -3176761], [17035526, -3176737],
+								[17035555, -3176726], [17036058, -3176804],
+								[17035995, -3177211], [17036284, -3177332],
+								[17036258, -3177426], [17036259, -3177502],
+								[17036319, -3177752], [17036236, -3177824],
+								[17036178, -3177917], [17036106, -3178259],
+								[17036077, -3178321], [17035771, -3178608],
+								[17035747, -3178659], [17035524, -3178810],
+								[17035499, -3178848], [17035546, -3179104],
+								[17035509, -3179157], [17035435, -3179180],
+								[17035331, -3179164], [17035175, -3178994],
+								[17035130, -3178996], [17035011, -3179130],
+								[17034878, -3179050], [17034753, -3179072],
+								[17034680, -3179066], [17034607, -3179021],
+								[17034481, -3178868], [17034379, -3178830],
+								[17034312, -3178849], [17034498, -3177624]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 99,
+						"DZN_CODE16" : "311311604",
+						"SA2_MAIN16" : "305031131",
+						"SA2_5DIG16" : "31131",
+						"SA2_NAME16" : "Wooloowin - Lutwyche",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.8562,
+						"NEAR_FID" : 47,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17035273, -3176243], [17035354, -3176169],
+								[17035352, -3176063], [17035401, -3175985],
+								[17035397, -3175917], [17035410, -3175881],
+								[17035394, -3175835], [17035427, -3175762],
+								[17035491, -3175706], [17035651, -3175489],
+								[17035800, -3175323], [17035954, -3175480],
+								[17035953, -3175532], [17035926, -3175691],
+								[17035740, -3175996], [17036183, -3176070],
+								[17036058, -3176804], [17035555, -3176726],
+								[17035526, -3176737], [17035514, -3176761],
+								[17034537, -3176596], [17034584, -3176341],
+								[17034691, -3176336], [17034736, -3176291],
+								[17034762, -3176285], [17034871, -3176320],
+								[17034984, -3176325], [17035273, -3176243]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 100,
+						"DZN_CODE16" : "311311605",
+						"SA2_MAIN16" : "305031131",
+						"SA2_5DIG16" : "31131",
+						"SA2_NAME16" : "Wooloowin - Lutwyche",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.2284,
+						"NEAR_FID" : 46,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17036311, -3174894], [17036428, -3174792],
+								[17036531, -3174574], [17036579, -3174539],
+								[17037111, -3174418], [17037140, -3174408],
+								[17037140, -3174388], [17037331, -3174338],
+								[17037349, -3174202], [17037460, -3174045],
+								[17037524, -3174075], [17037684, -3174263],
+								[17037521, -3175408], [17037267, -3175370],
+								[17037136, -3176215], [17036922, -3176179],
+								[17036887, -3176405], [17036969, -3176419],
+								[17036920, -3176731], [17036582, -3176682],
+								[17036570, -3176770], [17036076, -3176692],
+								[17036183, -3176070], [17035740, -3175996],
+								[17035926, -3175691], [17035953, -3175532],
+								[17035954, -3175480], [17035800, -3175323],
+								[17035899, -3175225], [17036311, -3174894]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 101,
+						"DZN_CODE16" : "311321630",
+						"SA2_MAIN16" : "305041132",
+						"SA2_5DIG16" : "31132",
+						"SA2_NAME16" : "Ashgrove",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 6.5216,
+						"NEAR_FID" : 162,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17029857, -3178283], [17029944, -3178297],
+								[17030085, -3177414], [17030340, -3177456],
+								[17030335, -3177489], [17030443, -3177508],
+								[17030451, -3177443], [17030571, -3177462],
+								[17030675, -3177418], [17030661, -3177497],
+								[17031064, -3177556], [17031314, -3177482],
+								[17031225, -3178122], [17031536, -3178171],
+								[17031694, -3178254], [17031788, -3178207],
+								[17031734, -3178150], [17031804, -3178080],
+								[17031843, -3178077], [17031868, -3178129],
+								[17031910, -3178104], [17031939, -3178002],
+								[17032034, -3178008], [17032146, -3178051],
+								[17032235, -3178006], [17032331, -3178013],
+								[17032409, -3178045], [17032419, -3178079],
+								[17032399, -3178108], [17032417, -3178121],
+								[17032487, -3178129], [17032496, -3178117],
+								[17032482, -3178065], [17032523, -3178079],
+								[17032588, -3178186], [17032604, -3178301],
+								[17032576, -3178450], [17032502, -3178511],
+								[17032356, -3178533], [17032250, -3178503],
+								[17032196, -3178462], [17032136, -3178456],
+								[17032074, -3178490], [17032012, -3178561],
+								[17032101, -3178722], [17032154, -3178757],
+								[17032190, -3178811], [17032196, -3178860],
+								[17032145, -3178970], [17032086, -3179008],
+								[17032047, -3179007], [17032028, -3179032],
+								[17032027, -3179099], [17032066, -3179163],
+								[17032109, -3179193], [17032080, -3179216],
+								[17032070, -3179257], [17032003, -3179280],
+								[17031921, -3179359], [17031972, -3179556],
+								[17031920, -3179591], [17031937, -3179619],
+								[17031917, -3179642], [17031925, -3179676],
+								[17031906, -3179693], [17031837, -3179683],
+								[17031793, -3179614], [17031758, -3179600],
+								[17031677, -3179669], [17031588, -3179656],
+								[17031593, -3179603], [17031637, -3179537],
+								[17031649, -3179474], [17031606, -3179420],
+								[17031546, -3179419], [17031530, -3179405],
+								[17031482, -3179324], [17031401, -3179331],
+								[17031380, -3179424], [17031290, -3179474],
+								[17031353, -3179587], [17031338, -3179651],
+								[17031119, -3179656], [17031000, -3179677],
+								[17030892, -3179669], [17030801, -3179721],
+								[17030762, -3179722], [17030681, -3179678],
+								[17030647, -3179615], [17030640, -3179551],
+								[17030464, -3179640], [17030406, -3179577],
+								[17030357, -3179483], [17030287, -3179465],
+								[17030222, -3179495], [17030140, -3179599],
+								[17030150, -3179649], [17030073, -3179743],
+								[17030025, -3179765], [17030018, -3179750],
+								[17029914, -3179794], [17029847, -3179837],
+								[17029776, -3179924], [17029725, -3179957],
+								[17029646, -3179957], [17029563, -3180032],
+								[17029537, -3180014], [17029421, -3180286],
+								[17029417, -3180310], [17029473, -3180380],
+								[17029425, -3180417], [17029368, -3180434],
+								[17029217, -3180397], [17029194, -3180382],
+								[17029101, -3180221], [17029033, -3180180],
+								[17028936, -3180181], [17028841, -3180138],
+								[17028721, -3180241], [17028631, -3180222],
+								[17028620, -3180265], [17028463, -3180245],
+								[17028471, -3180200], [17028295, -3180166],
+								[17028233, -3180532], [17028436, -3180567],
+								[17028364, -3180957], [17028164, -3180905],
+								[17028157, -3180946], [17027244, -3180813],
+								[17027322, -3180378], [17027767, -3179963],
+								[17027983, -3180000], [17028054, -3179588],
+								[17028005, -3179474], [17027918, -3179403],
+								[17027686, -3179358], [17027790, -3178684],
+								[17027803, -3178675], [17028717, -3178821],
+								[17028768, -3178661], [17028817, -3178598],
+								[17028863, -3178572], [17028963, -3178563],
+								[17029076, -3178602], [17029144, -3178652],
+								[17029228, -3178163], [17029857, -3178283]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 102,
+						"DZN_CODE16" : "311331714",
+						"SA2_MAIN16" : "305041133",
+						"SA2_5DIG16" : "31133",
+						"SA2_NAME16" : "Auchenflower",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3123,
+						"NEAR_FID" : 275,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17031617, -3182897], [17031817, -3182702],
+								[17031999, -3182830], [17032102, -3182844],
+								[17032135, -3182909], [17032245, -3183010],
+								[17032104, -3183127], [17031791, -3183478],
+								[17031661, -3183658], [17031522, -3183537],
+								[17031492, -3183567], [17031478, -3183543],
+								[17031486, -3183406], [17031443, -3183344],
+								[17031504, -3183078], [17031488, -3183047],
+								[17031617, -3182897]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 103,
+						"DZN_CODE16" : "311331715",
+						"SA2_MAIN16" : "305041133",
+						"SA2_5DIG16" : "31133",
+						"SA2_NAME16" : "Auchenflower",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.9599,
+						"NEAR_FID" : 274,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17030654, -3182523], [17030673, -3182397],
+								[17030611, -3182363], [17030623, -3182285],
+								[17030666, -3182224], [17030677, -3182135],
+								[17031107, -3182201], [17031126, -3182095],
+								[17031470, -3182152], [17031739, -3182081],
+								[17031748, -3182115], [17031677, -3182179],
+								[17031858, -3182394], [17031914, -3182597],
+								[17031604, -3182909], [17031488, -3183047],
+								[17031504, -3183078], [17031443, -3183344],
+								[17031379, -3183272], [17031099, -3183524],
+								[17031042, -3183457], [17031118, -3183404],
+								[17031088, -3183364], [17031071, -3183380],
+								[17030961, -3183256], [17031010, -3183214],
+								[17030967, -3183161], [17030875, -3183239],
+								[17030751, -3183093], [17030561, -3183061],
+								[17030654, -3182523]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 104,
+						"DZN_CODE16" : "311341631",
+						"SA2_MAIN16" : "305041134",
+						"SA2_5DIG16" : "31134",
+						"SA2_NAME16" : "Bardon",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 4.6853,
+						"NEAR_FID" : 167,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17028141, -3181103], [17028164, -3180905],
+								[17028364, -3180957], [17028370, -3180947],
+								[17028436, -3180567], [17028233, -3180532],
+								[17028295, -3180166], [17028471, -3180200],
+								[17028463, -3180245], [17028620, -3180265],
+								[17028631, -3180222], [17028721, -3180241],
+								[17028841, -3180138], [17028936, -3180181],
+								[17029033, -3180180], [17029101, -3180221],
+								[17029194, -3180382], [17029368, -3180434],
+								[17029425, -3180417], [17029473, -3180380],
+								[17029417, -3180310], [17029421, -3180286],
+								[17029537, -3180014], [17029563, -3180032],
+								[17029646, -3179957], [17029725, -3179957],
+								[17029776, -3179924], [17029847, -3179837],
+								[17029914, -3179794], [17030018, -3179750],
+								[17030025, -3179765], [17030073, -3179743],
+								[17030150, -3179649], [17030140, -3179599],
+								[17030234, -3179487], [17030287, -3179465],
+								[17030357, -3179483], [17030406, -3179577],
+								[17030464, -3179640], [17030640, -3179551],
+								[17030647, -3179615], [17030681, -3179678],
+								[17030762, -3179722], [17030801, -3179721],
+								[17030892, -3179669], [17030951, -3179679],
+								[17030853, -3180259], [17030804, -3180302],
+								[17030613, -3180345], [17030297, -3180691],
+								[17030273, -3180745], [17030307, -3180806],
+								[17030463, -3180821], [17030512, -3180842],
+								[17030568, -3180897], [17030592, -3180948],
+								[17030611, -3181013], [17030581, -3181208],
+								[17030576, -3181413], [17030637, -3181616],
+								[17030634, -3181688], [17031089, -3181767],
+								[17031039, -3182079], [17031126, -3182095],
+								[17031107, -3182201], [17030677, -3182135],
+								[17030666, -3182224], [17030623, -3182285],
+								[17030611, -3182363], [17030597, -3182371],
+								[17030483, -3182415], [17030366, -3182403],
+								[17030361, -3182427], [17030320, -3182451],
+								[17030221, -3182444], [17030117, -3182396],
+								[17030019, -3182409], [17029953, -3182554],
+								[17029858, -3182592], [17029670, -3182547],
+								[17029602, -3182491], [17029508, -3182478],
+								[17029408, -3182516], [17029327, -3182501],
+								[17029056, -3182336], [17028926, -3182334],
+								[17028771, -3182400], [17028712, -3182459],
+								[17028631, -3182280], [17028579, -3182086],
+								[17028518, -3182038], [17028479, -3181934],
+								[17028272, -3181814], [17028215, -3181749],
+								[17028117, -3181765], [17028031, -3181759],
+								[17028042, -3181730], [17028080, -3181704],
+								[17028089, -3181402], [17028021, -3181419],
+								[17027864, -3181323], [17027793, -3181220],
+								[17027805, -3181155], [17027906, -3181087],
+								[17027983, -3181109], [17028127, -3181185],
+								[17028141, -3181103]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 105,
+						"DZN_CODE16" : "311351716",
+						"SA2_MAIN16" : "305041135",
+						"SA2_5DIG16" : "31135",
+						"SA2_NAME16" : "Paddington - Milton",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 2.4216,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17030598, -3181077], [17030611, -3181013],
+								[17030568, -3180897], [17030484, -3180826],
+								[17030307, -3180806], [17030273, -3180745],
+								[17030297, -3180691], [17030613, -3180345],
+								[17030804, -3180302], [17030853, -3180259],
+								[17030889, -3180250], [17031141, -3180268],
+								[17031197, -3180244], [17031335, -3180280],
+								[17031556, -3180381], [17031540, -3180501],
+								[17031590, -3180544], [17031732, -3180520],
+								[17032059, -3180585], [17032069, -3180572],
+								[17032197, -3180631], [17032233, -3180553],
+								[17032340, -3180570], [17032304, -3180644],
+								[17032955, -3180939], [17032990, -3180995],
+								[17033027, -3180975], [17033213, -3181009],
+								[17033125, -3181488], [17032885, -3181362],
+								[17032553, -3181498], [17032492, -3181337],
+								[17031916, -3181555], [17031896, -3181570],
+								[17031948, -3181719], [17032008, -3181810],
+								[17032007, -3181901], [17031748, -3182115],
+								[17031739, -3182081], [17031470, -3182152],
+								[17031039, -3182079], [17031089, -3181767],
+								[17030634, -3181688], [17030637, -3181616],
+								[17030576, -3181413], [17030598, -3181077]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 106,
+						"DZN_CODE16" : "311351717",
+						"SA2_MAIN16" : "305041135",
+						"SA2_5DIG16" : "31135",
+						"SA2_NAME16" : "Paddington - Milton",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.2238,
+						"NEAR_FID" : 274,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032329, -3182253], [17032485, -3182656],
+								[17032521, -3182695], [17032341, -3182875],
+								[17032359, -3182887], [17032315, -3182943],
+								[17032298, -3182929], [17032245, -3183010],
+								[17032135, -3182909], [17032102, -3182844],
+								[17031999, -3182830], [17031817, -3182702],
+								[17031969, -3182548], [17032090, -3182360],
+								[17032208, -3182265], [17032202, -3182245],
+								[17032296, -3182205], [17032329, -3182253]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 107,
+						"DZN_CODE16" : "311351718",
+						"SA2_MAIN16" : "305041135",
+						"SA2_5DIG16" : "31135",
+						"SA2_NAME16" : "Paddington - Milton",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.6965,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17031924, -3181656], [17031896, -3181570],
+								[17031916, -3181555], [17032492, -3181337],
+								[17032553, -3181498], [17032885, -3181362],
+								[17033125, -3181488], [17033038, -3181926],
+								[17032202, -3182245], [17032208, -3182265],
+								[17032090, -3182360], [17031969, -3182548],
+								[17031914, -3182597], [17031858, -3182394],
+								[17031677, -3182179], [17032007, -3181901],
+								[17032008, -3181810], [17031924, -3181656]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 108,
+						"DZN_CODE16" : "311351996",
+						"SA2_MAIN16" : "305041135",
+						"SA2_5DIG16" : "31135",
+						"SA2_NAME16" : "Paddington - Milton",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.1498,
+						"NEAR_FID" : 278,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032348, -3182297], [17032296, -3182205],
+								[17032694, -3182055], [17032841, -3182409],
+								[17032521, -3182695], [17032485, -3182656],
+								[17032348, -3182297]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 109,
+						"DZN_CODE16" : "311351997",
+						"SA2_MAIN16" : "305041135",
+						"SA2_5DIG16" : "31135",
+						"SA2_NAME16" : "Paddington - Milton",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.0919,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17032716, -3182115], [17032694, -3182055],
+								[17033038, -3181926], [17033135, -3182181],
+								[17032970, -3182295], [17032841, -3182409],
+								[17032716, -3182115]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 110,
+						"DZN_CODE16" : "311361632",
+						"SA2_MAIN16" : "305041136",
+						"SA2_5DIG16" : "31136",
+						"SA2_NAME16" : "Red Hill (Qld)",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 1.69,
+						"NEAR_FID" : 172,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17031735, -3179612], [17031775, -3179604],
+								[17031837, -3179683], [17031906, -3179693],
+								[17031925, -3179676], [17031917, -3179642],
+								[17031937, -3179619], [17031920, -3179591],
+								[17031972, -3179556], [17031921, -3179359],
+								[17031932, -3179341], [17032003, -3179280],
+								[17032070, -3179257], [17032080, -3179216],
+								[17032109, -3179193], [17032243, -3179166],
+								[17032305, -3179191], [17032355, -3179186],
+								[17032495, -3179531], [17032678, -3180104],
+								[17032661, -3180289], [17033219, -3180371],
+								[17033499, -3180933], [17033525, -3181042],
+								[17033273, -3180866], [17033213, -3181009],
+								[17033027, -3180975], [17032990, -3180995],
+								[17032955, -3180939], [17032304, -3180644],
+								[17032340, -3180570], [17032233, -3180553],
+								[17032197, -3180631], [17032069, -3180572],
+								[17032059, -3180585], [17031732, -3180520],
+								[17031590, -3180544], [17031540, -3180501],
+								[17031556, -3180381], [17031335, -3180280],
+								[17031197, -3180244], [17031141, -3180268],
+								[17030853, -3180259], [17030948, -3179670],
+								[17031338, -3179651], [17031353, -3179587],
+								[17031288, -3179479], [17031380, -3179424],
+								[17031401, -3179331], [17031482, -3179324],
+								[17031530, -3179405], [17031546, -3179419],
+								[17031606, -3179420], [17031649, -3179474],
+								[17031637, -3179537], [17031593, -3179603],
+								[17031588, -3179656], [17031677, -3179669],
+								[17031735, -3179612]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 111,
+						"DZN_CODE16" : "311371712",
+						"SA2_MAIN16" : "305041137",
+						"SA2_5DIG16" : "31137",
+						"SA2_NAME16" : "Toowong",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 0.3658,
+						"NEAR_FID" : 161,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17030825, -3184239], [17030875, -3183947],
+								[17031176, -3183999], [17031172, -3184011],
+								[17031213, -3184007], [17031220, -3183991],
+								[17031284, -3184010], [17031385, -3184105],
+								[17031352, -3184147], [17031420, -3184163],
+								[17031361, -3184212], [17031332, -3184268],
+								[17031311, -3184400], [17031260, -3184565],
+								[17031278, -3184677], [17031268, -3184687],
+								[17031200, -3184676], [17031193, -3184749],
+								[17031063, -3184912], [17030701, -3184997],
+								[17030825, -3184239]]]
+					}
+				}, {
+					"attributes" : {
+						"FID" : 112,
+						"DZN_CODE16" : "311371713",
+						"SA2_MAIN16" : "305041137",
+						"SA2_5DIG16" : "31137",
+						"SA2_NAME16" : "Toowong",
+						"STE_CODE16" : "3",
+						"STE_NAME16" : "Queensland",
+						"AREASQKM16" : 3.517,
+						"NEAR_FID" : 161,
+						"NEAR_DIST" : 0,
+						"ACC" : 0
+					},
+					"geometry" : {
+						"spatialReference" : {
+							"wkid" : 102100,
+							"latestWkid" : 3857
+						},
+						"rings" : [[[17029730, -3183214], [17029723, -3183159],
+								[17029666, -3183037], [17029595, -3182956],
+								[17029501, -3182909], [17028756, -3182697],
+								[17028732, -3182658], [17028754, -3182574],
+								[17028712, -3182459], [17028771, -3182400],
+								[17028926, -3182334], [17029056, -3182336],
+								[17029327, -3182501], [17029408, -3182516],
+								[17029508, -3182478], [17029602, -3182491],
+								[17029670, -3182547], [17029858, -3182592],
+								[17029953, -3182554], [17030019, -3182409],
+								[17030117, -3182396], [17030221, -3182444],
+								[17030320, -3182451], [17030361, -3182427],
+								[17030366, -3182403], [17030483, -3182415],
+								[17030611, -3182363], [17030673, -3182397],
+								[17030561, -3183061], [17030751, -3183093],
+								[17030875, -3183239], [17030967, -3183161],
+								[17031010, -3183214], [17030961, -3183256],
+								[17031071, -3183380], [17031088, -3183364],
+								[17031118, -3183404], [17031042, -3183457],
+								[17031099, -3183524], [17031379, -3183272],
+								[17031486, -3183406], [17031478, -3183543],
+								[17031492, -3183567], [17031522, -3183537],
+								[17031661, -3183658], [17031434, -3184083],
+								[17031445, -3184097], [17031420, -3184163],
+								[17031352, -3184147], [17031385, -3184105],
+								[17031284, -3184010], [17031220, -3183991],
+								[17031213, -3184007], [17031172, -3184011],
+								[17031176, -3183999], [17030875, -3183947],
+								[17030705, -3184965], [17030433, -3184920],
+								[17030439, -3184880], [17030349, -3184861],
+								[17030302, -3184810], [17029964, -3184748],
+								[17029981, -3184626], [17029970, -3184623],
+								[17029886, -3184608], [17029882, -3184630],
+								[17029793, -3184614], [17029790, -3184630],
+								[17029474, -3184574], [17029442, -3184749],
+								[17029384, -3184751], [17029228, -3184723],
+								[17029125, -3184629], [17029096, -3184621],
+								[17028919, -3184676], [17028764, -3184666],
+								[17028669, -3184631], [17028555, -3184551],
+								[17028585, -3184512], [17028661, -3184527],
+								[17028790, -3183724], [17029368, -3183412],
+								[17029651, -3183302], [17029694, -3183272],
+								[17029730, -3183214]]]
+					}
+				}],
+				"geometryType" : "esriGeometryPolygon"
+			}
+		}],
+		"showLegend" : true
+	}
+}
