@@ -13,3 +13,4 @@ TAZ-Accessibility-Visualization-System 是一个简单的交通分析区可达性可视化的web应
 > [演示地址](http://avs.miaotiao.online)
 
 ## 预览图
+![系统主页](http://miantiao.online/upload/2020/04/mainpage-ce5e19f38ac94b899631c016410748c5.png)
