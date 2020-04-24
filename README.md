@@ -1,7 +1,5 @@
 <h1 align="center"><a href="https://github.com/miantiao5115/TAZ-Accessibility-Visualization-System">TAZ-Accessibility-Visualization-System</a></h1>
 
-> ¡£
-
 ------------------------------
 
 ## ¼ò½é
