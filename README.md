@@ -2,13 +2,13 @@
 
 ------------------------------
 
-## ¼ò½é
+## ç®€ä»‹
 
-TAZ:Traffic Analysis Zone£¬¿ÉÒÔ·­ÒëÎª½»Í¨·ÖÎöÇø¡¢½»Í¨Ğ¡Çø¡£
+TAZ:Traffic Analysis Zoneï¼Œå¯ä»¥ç¿»è¯‘ä¸ºäº¤é€šåˆ†æåŒºã€äº¤é€šå°åŒºã€‚
 
-TAZ-Accessibility-Visualization-System ÊÇÒ»¸ö¼òµ¥µÄ½»Í¨·ÖÎöÇø¿É´ïĞÔ¿ÉÊÓ»¯µÄwebÓ¦ÓÃ£¬Í¨¹ı¸ÃÓ¦ÓÃ¿ÉÒÔÖ±¹ÛµÄ¿´³ö¸÷¸ö½»Í¨·ÖÎöÇøµÄ¿É´ïĞÔ¡£
+TAZ-Accessibility-Visualization-System æ˜¯ä¸€ä¸ªç®€å•çš„äº¤é€šåˆ†æåŒºå¯è¾¾æ€§å¯è§†åŒ–çš„webåº”ç”¨ï¼Œé€šè¿‡è¯¥åº”ç”¨å¯ä»¥ç›´è§‚çš„çœ‹å‡ºå„ä¸ªäº¤é€šåˆ†æåŒºçš„å¯è¾¾æ€§ã€‚
 
-> [ÑİÊ¾µØÖ·](http://avs.miaotiao.online)
+> [æ¼”ç¤ºåœ°å€](http://avs.miantiao.online/)
 
-## Ô¤ÀÀÍ¼
-![ÏµÍ³Ö÷Ò³](http://miantiao.online/upload/2020/04/mainpage-ce5e19f38ac94b899631c016410748c5.png)
+## é¢„è§ˆå›¾
+![ç³»ç»Ÿä¸»é¡µ](http://miantiao.online/upload/2020/05/ç³»ç»Ÿæ¼”ç¤º-dfb9b8ad82244bdd862ffa6d037bad05.png)
