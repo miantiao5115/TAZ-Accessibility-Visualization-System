@@ -550,16 +550,19 @@ html, body, #viewDiv {
 						<!-- 详情 -->
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active" id="about">
+								<br>
 								这是一个主要用于可视化交通分析区的可达性（可以是公交可达性、步行可达性、机会可达性等等）简单web应用。在实现过程中，调用了ArcGIS
 								REST API来解析shapefile文件，同时在后端使用Apache
 								POI工具解析Excel数据文件。您可以使用我提供的实例数据来体验该web应用的功能。该应用是我个人的一个练手小项目，技术比较拙劣，还请指教，同时欢迎来踩我的<a
-									href="http://miantiao.online/">博客</a>。
+									href="https://miantiao.online/">博客</a>。
 							</div>
 							<div role="tabpanel" class="tab-pane" id="shapefile">
+								<br>
 								在该应用中，shapefile文件必须以.zip格式的压缩包文件上传，主要用于构建地图的features。shapefile文件可以包含多个属性字段，其中FID和ACC是两个必需要字段，若缺失这两个字段，将无法解析。<a
 									href="http://miantiao.online:8080/bulisiban.zip">点击这里</a>下载shapefile示例数据。
 							</div>
 							<div role="tabpanel" class="tab-pane" id="accessibilityData">
+								<br>
 								可达性数据文件必须以Excel(.xls或.xlsx)文件格式上传。可达性数据文件只能包含两个属性字段，其中第一个属性字段必须与shapefile文件的FID一一对应；第二个属性字段是可达性数值，其数据类型必须是数字；除此之外Excel文件的第一行必须是字段名称行。<a
 									href="http://miantiao.online:8080/accessibility.xlsx">点击这里</a>下载可达性示例数据。
 							</div>
