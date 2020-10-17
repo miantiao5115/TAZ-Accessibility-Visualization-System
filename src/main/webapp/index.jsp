@@ -33,8 +33,8 @@ html, body, #viewDiv {
 </style>
 <link rel="shortcut icon" href="${BASE_PATH}/static/img/map.ico">
 <link rel="stylesheet"
-	href="https://js.arcgis.com/4.14/esri/themes/light/main.css" />
-<script src="https://js.arcgis.com/4.14/"></script>
+	href="http://39.106.31.176:8080/arcgis_js_api/4.14/esri/themes/light/main.css" />
+<script src="http://39.106.31.176:8080/arcgis_js_api/4.14/init.js"></script>
 <link href="${BASE_PATH}/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="${BASE_PATH}/static/css/font-awesome.css" rel="stylesheet">
 <link href="${BASE_PATH}/static/css/style.css" rel="stylesheet">
